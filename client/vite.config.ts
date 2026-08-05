@@ -16,4 +16,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  oxc: {
+    jsxInject: `import React from "react";`,
+  },
 });
